@@ -1,0 +1,18 @@
+# PROJE 1 
+
+AÇIKLAMA: Sırası ile en küçük sayıyı alıp en baştan başlayarak yer değiştirme yöntemi ile dizeceğiz. 
+*[22,27,16,2,18,6] -> Dizinin ilk hali. Dizideki en küçük rakam 2 olduğu için sıralamanın en başına gelmeli bu durumda 2 ile 22 yer değiştirir
+*[2,27,16,22,18,6] -> Bundan sonraki adımlarıda aynı şekilde takip edicez. En küçük eleman sıranın başına geldiğine göre bundan sonrakine bakmalıyız.
+*[2,6,16,22,18,27]
+*[2,6,16,18,22,27]
+
+Big-O Notation: O(n^2)
+
+18 değeri -> worst Case
+
+-DİĞER SORU:[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+*[7,3,5,8,2,9,4,15,6] -> Dizinin ilk hali
+*[2,3,5,8,7,9,4,15,6] 1.adım
+*[2,3,4,8,7,9,5,15,6] 2.adım
+*[2,3,4,5,7,9,8,15,6] 3.adım
+*[2,3,4,5,6,9,8,15,7] 4.adım
